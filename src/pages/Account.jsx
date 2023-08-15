@@ -19,7 +19,7 @@ const Account = () =>{
                     <p className="user-name" style={{color:"orange",fontSize:"20px"}}>{"Welcome " + user?.displayName}</p>
                     {/* <p className="user-email" style={{color:'orange', fontSize:"18px"}}>{user?.email}</p> */}
                 </div>
-                <button className="logout-button btn bg-danger" style={{color:"white",width:"130px",fontSize:"18px"}} onClick={handleSignOut}>Logout </button>
+                {/* <button className="logout-button btn bg-danger" style={{color:"white",width:"130px",fontSize:"18px"}} onClick={handleSignOut}>Logout </button> */}
         </div>
     );
 }

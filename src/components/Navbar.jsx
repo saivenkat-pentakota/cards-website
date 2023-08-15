@@ -13,7 +13,7 @@ const Navbar = () =>{
         }
     }
     return(
-        <div className="d-flex flex-row justify-content-between p-4" style = {{backgroundColor:"lightgrey" ,textAlign:"center"}}>
+        <div className="d-flex flex-row justify-content-between p-4" style = {{textAlign:"center"}}>
             <h1 className="app-logo">
                 Fluid-Solutions
             </h1>
