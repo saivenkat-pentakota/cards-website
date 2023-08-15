@@ -33,14 +33,14 @@ const ImagesUpload = () => {
     });
   }, []);
   return (
-    <div className="images-upload">
-      <input
+    <div className=" d-flex flex-row justify-content-center images-upload" style={{alignItems:"center"}}>
+      <input className="btn btn-outline-primary p-2 m-2" 
         type="file"
         onChange={(event) => {
           setImageUpload(event.target.files[0]);
         }}
       />
-      <button onClick={uploadFile}> Upload Image </button>
+      <button onClick={uploadFile} className="btn btn-primary" style={{width:"180px",height:"40px"}}> Upload Image </button>
       {imageUrls.map((url) =>{
         return <img src={url}/>
       })}
